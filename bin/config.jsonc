@@ -26,12 +26,12 @@
         {
             "type": "localip",
             "key": "╭─ ip: ",
-            "keyColor": "cyan"
+            "keyColor": "#FFFFFF"
         },
         {
             "type": "title",
             "key": "╰─ title: ",
-            "keyColor": "cyan",
+            "keyColor": "#FFFFFF",
             "format": "{#888888}{1}{#888888}@{#888888}{2}"
         },
 
@@ -39,34 +39,34 @@
         {
             "type": "os",
             "key": "╭─ os: ",
-            "keyColor": "green"
+            "keyColor": "#8595FF"
         },
         {
             "type": "shell",
             "key": "├─ shell: ",
-            "keyColor": "green"
+            "keyColor": "#8595FF"
         },
         {
             "type": "terminal",
             "key": "╰─ terminal: ",
-            "keyColor": "green"
+            "keyColor": "#8595FF"
         },
         "break",
 
         {
             "type": "uptime",
             "key": "╭─ up: ",
-            "keyColor": "yellow"
+            "keyColor": "#8595FF"
         },
         {
             "type": "memory",
             "key": "├─ mem: ",
-            "keyColor": "yellow"
+            "keyColor": "#8595FF"
         },
         {
             "type": "cpu",
             "key": "╰─ cpu: ",
-            "keyColor": "yellow"
+            "keyColor": "#8595FF"
         },
         "break",
 
@@ -74,13 +74,13 @@
             "type": "datetime",
             "key": "╭─ date: ",
             "format": "{23}.{4}.{1}",
-            "keyColor": "red"
+            "keyColor": "#FFFFFF"
         },
         {
             "type": "weather",
             "timeout": 3500,
             "key": "╰─ weather: ",
-            "keyColor": "red"
+            "keyColor": "#FFFFFF"
         }
     ]
 }

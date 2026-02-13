@@ -1,8 +1,8 @@
 # Terminal Setup
 
-![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-v1.22%2B-lightgray)
-![PowerShell](https://img.shields.io/badge/PowerShell-7%2B-lightgray)
-![Oh My Posh](https://img.shields.io/badge/Oh--My--Posh-latest-lightgray)
+![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-v1.22%2B-red)
+![PowerShell](https://img.shields.io/badge/PowerShell-7%2B-orange)
+![Oh My Posh](https://img.shields.io/badge/Oh--My--Posh-latest-yellow)
 
 My personal Windows Terminal setup, a collection of config files that give you a clean, themed PowerShell experience with a system info splash screen. Includes a translucent acrylic color theme, a customized oh-my-posh prompt, and a fastfetch greeting with ANSI art.
 

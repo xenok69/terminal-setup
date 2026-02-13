@@ -1,0 +1,86 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  
+//
+//  
+
+{
+    "logo": {
+        "type": "file-raw",
+        "source": "~/AppData/Roaming/fastfetch/logo.ans",
+        "width": 1,
+        "height": 1,
+        "padding": {
+            "top": 0,
+            "left": 0,
+            "right": 1
+        }
+    },
+    "display": {
+        "separator": ""
+    },
+    "modules": [
+        "break",
+
+        {
+            "type": "localip",
+            "key": "╭─ ip: ",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "title",
+            "key": "╰─ title: ",
+            "keyColor": "cyan",
+            "format": "{#888888}{1}{#888888}@{#888888}{2}"
+        },
+
+        "break",
+        {
+            "type": "os",
+            "key": "╭─ os: ",
+            "keyColor": "green"
+        },
+        {
+            "type": "shell",
+            "key": "├─ shell: ",
+            "keyColor": "green"
+        },
+        {
+            "type": "terminal",
+            "key": "╰─ terminal: ",
+            "keyColor": "green"
+        },
+        "break",
+
+        {
+            "type": "uptime",
+            "key": "╭─ up: ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "memory",
+            "key": "├─ mem: ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "cpu",
+            "key": "╰─ cpu: ",
+            "keyColor": "yellow"
+        },
+        "break",
+
+        {
+            "type": "datetime",
+            "key": "╭─ date: ",
+            "format": "{23}.{4}.{1}",
+            "keyColor": "red"
+        },
+        {
+            "type": "weather",
+            "timeout": 3500,
+            "key": "╰─ weather: ",
+            "keyColor": "red"
+        }
+    ]
+}

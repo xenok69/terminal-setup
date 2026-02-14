@@ -1,6 +1,4 @@
-winget upgrade JanDeDobbeleer.OhMyPosh --source winget
-
-oh-my-posh init pwsh --config "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/clean-detailed.omp.json" --eval | Invoke-Expression
+oh-my-posh init pwsh --config "https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/uew.omp.json" --eval | Invoke-Expression
 
 clear
 

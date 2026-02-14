@@ -1,3 +1,5 @@
+![example setup](Example.png)
+
 # Terminal Setup
 
 ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-v1.22%2B-blue)

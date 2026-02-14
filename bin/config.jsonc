@@ -18,69 +18,112 @@
         }
     },
     "display": {
-        "separator": ""
+        "separator": " . "
     },
     "modules": [
-        "break",
-
-        {
-            "type": "localip",
-            "key": "╭─ ip: ",
-            "keyColor": "#FFFFFF"
-        },
         {
             "type": "title",
-            "key": "╰─ title: ",
-            "keyColor": "#FFFFFF",
-            "format": "{#888888}{1}{#888888}@{#888888}{2}"
+            "format": "{1}@{2}"
         },
 
         "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌──────────────────────────────◊──────────────────────────────┐\u001b[0m"
+        },
+
         {
             "type": "os",
-            "key": "╭─ os: ",
-            "keyColor": "#8595FF"
+            "key": ">",
+            "keyColor": "cyan"
         },
         {
-            "type": "shell",
-            "key": "├─ shell: ",
-            "keyColor": "#8595FF"
+            "type": "kernel",
+            "key": ">",
+            "keyColor": "cyan"
         },
         {
-            "type": "terminal",
-            "key": "╰─ terminal: ",
-            "keyColor": "#8595FF"
+            "type": "wm",
+            "key": ">",
+            "keyColor": "white"
         },
-        "break",
+        {
+            "type": "display",
+            "key": ">",
+            "keyColor": "green"
+        },
 
         {
-            "type": "uptime",
-            "key": "╭─ up: ",
-            "keyColor": "#8595FF"
+            "type": "custom",
+            "format": "\u001b[90m├─────────────────────────────────────────────────────────────┤\u001b[0m"
+        },
+
+        {
+            "type": "cpu",
+            "key": ">",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "gpu",
+            "key": ">",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "swap",
+            "key": ">",
+            "keyColor": "white"
         },
         {
             "type": "memory",
-            "key": "├─ mem: ",
-            "keyColor": "#8595FF"
+            "key": ">",
+            "keyColor": "white"
         },
         {
-            "type": "cpu",
-            "key": "╰─ cpu: ",
-            "keyColor": "#8595FF"
+            "type": "disk",
+            "key": ">",
+            "keyColor": "green"
         },
-        "break",
+        {
+            "type": "battery",
+            "key": ">",
+            "keyColor": "green"
+        },
 
         {
+            "type": "custom",
+            "format": "\u001b[90m├─────────────────────────────────────────────────────────────┤\u001b[0m"
+        },
+
+        {
+            "type": "uptime",
+            "key": ">",
+            "keyColor": "cyan"
+        },
+        {
             "type": "datetime",
-            "key": "╭─ date: ",
-            "format": "{23}.{4}.{1}",
-            "keyColor": "#FFFFFF"
+            "key": ">",
+            "keyColor": "white"
         },
         {
             "type": "weather",
-            "timeout": 3500,
-            "key": "╰─ weather: ",
-            "keyColor": "#FFFFFF"
+            "key": ">",
+            "keyColor": "white",
+            "timeout": 1500
+        },
+        {
+            "type": "terminal",
+            "key": ">",
+            "keyColor": "green"
+        },
+        {
+            "type": "locale",
+            "key": ">",
+            "keyColor": "green"
+        },
+
+        {
+            "type": "custom",
+            "format": "\u001b[90m└──────────────────────────────◊──────────────────────────────┘\u001b[0m"
         }
     ]
 }

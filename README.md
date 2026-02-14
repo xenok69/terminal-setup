@@ -99,8 +99,8 @@ explorer "$($env:APPDATA)\fastfetch"
 2. Convert it to ANSI art using `chafa`:
 
 ```powershell
-chafa -s 30x30 --symbols ascii --color-space din99d "$($env:APPDATA)\fastfetch\logo.png" > "$($env:APPDATA)\fastfetch\logo.ans"
+chafa -s 50x50 --symbols vhalf --color-space din99d "$($env:APPDATA)\fastfetch\logo.png" > "$($env:APPDATA)\fastfetch\logo.ans"
 ```
 
 > [!Note]
-> Adjust the `30x30` size to fit your preference. Larger values create more detailed but bigger art.
+> Adjust the `50x50` size to fit your preference. Larger values create more detailed but bigger art.

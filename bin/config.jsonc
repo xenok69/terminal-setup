@@ -109,11 +109,17 @@
             "key": ">",
             "keyColor": "white"
         },
-	    {
+        {
     	    "type": "media",
             "key": ">",
             "keyColor": "white",
             "condition": { "succeeded": true }
+        },
+        {
+    	    "type": "localip",
+            "key": ">",
+            "keyColor": "white",
+            "condition": { "succeeded": false }
         },
         {
             "type": "terminal",

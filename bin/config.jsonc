@@ -102,13 +102,18 @@
         {
             "type": "datetime",
             "key": ">",
-            "keyColor": "white"
+            "keyColor": "cyan"
         },
         {
-            "type": "weather",
+            "type": "player",
+            "key": ">",
+            "keyColor": "white"
+        },
+	    {
+    	    "type": "media",
             "key": ">",
             "keyColor": "white",
-            "timeout": 1500
+            "condition": { "succeeded": true }
         },
         {
             "type": "terminal",

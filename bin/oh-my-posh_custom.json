@@ -6,25 +6,25 @@
             {
                "foreground": "#ffffff",
                "style": "plain",
-               "template": "<#51F775>\u250f[</>{{ .UserName }}<#51F775>]</>",
+               "template": "<#4FBC73>\u250f[</>{{ .UserName }}<#4FBC73>]</>",
                "type": "session"
             },
             {
                "foreground": "#ffffff",
                "style": "plain",
-               "template": "<#51F775>[</>{{ .HEAD }}<#51F775>]</>",
+               "template": "<#4FBC73>[</>{{ .HEAD }}<#4FBC73>]</>",
                "type": "git"
             },
             {
                "foreground": "#ffffff",
                "style": "plain",
-               "template": "<#51F775>[</>\uf0e7<#51F775>]</>",
+               "template": "<#4FBC73>[</>\uf0e7<#4FBC73>]</>",
                "type": "root"
             },
             {
                "foreground": "#ffffff",
                "style": "plain",
-               "template": "<#51F775>[x</>{{ reason .Code }}<#51F775>]</>",
+               "template": "<#4FBC73>[x</>{{ reason .Code }}<#4FBC73>]</>",
                "type": "status"
             }
          ],
@@ -37,7 +37,7 @@
          {
             "foreground": "#ffffff",
             "style": "plain",
-            "template": "<#51F775>\u2516[</>{{ .Path }}<#51F775>]></>",
+            "template": "<#4FBC73>\u2516[</>{{ .Path }}<#4FBC73>]></>",
             "type": "path"
          }
          ],

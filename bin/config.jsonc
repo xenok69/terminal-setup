@@ -18,112 +18,61 @@
         }
     },
     "display": {
-        "separator": " . "
+        "separator": ": "
     },
     "modules": [
         {
             "type": "title",
             "format": "{1}@{2}"
         },
-
-        "break",
         {
             "type": "custom",
-            "format": "\u001b[90m┌──────────────────────────────◊──────────────────────────────┐\u001b[0m"
+            "format": "\u001b[90m──────────────────────────────◊──────────────────────────────\u001b[0m"
         },
 
         {
             "type": "os",
-            "key": ">",
-            "keyColor": "cyan"
-        },
-        {
-            "type": "kernel",
-            "key": ">",
-            "keyColor": "cyan"
-        },
-        {
-            "type": "wm",
-            "key": ">",
-            "keyColor": "white"
-        },
-        {
-            "type": "display",
-            "key": ">",
+            "key": "OS",
+            "color": "white",
             "keyColor": "green"
-        },
-
-        {
-            "type": "custom",
-            "format": "\u001b[90m├─────────────────────────────────────────────────────────────┤\u001b[0m"
         },
 
         {
             "type": "cpu",
-            "key": ">",
-            "keyColor": "cyan"
+            "key": "CPU",
+            "color": "white",
+            "keyColor": "green"
         },
+
         {
             "type": "gpu",
-            "key": ">",
-            "keyColor": "cyan"
+            "key": "GPU",
+            "color": "white",
+            "keyColor": "green"
         },
-        {
-            "type": "swap",
-            "key": ">",
-            "keyColor": "white"
-        },
+
         {
             "type": "memory",
-            "key": ">",
-            "keyColor": "white"
+            "key": "Memory",
+            "color": "white",
+            "keyColor": "green"
         },
+
         {
             "type": "disk",
-            "key": ">",
-            "keyColor": "green"
-        },
-        {
-            "type": "battery",
-            "key": ">",
+            "key": "Disk ({mountpoint})",
+            "color": "white",
             "keyColor": "green"
         },
 
         {
-            "type": "custom",
-            "format": "\u001b[90m├─────────────────────────────────────────────────────────────┤\u001b[0m"
-        },
-
-        {
-            "type": "uptime",
-            "key": ">",
-            "keyColor": "cyan"
-        },
-        {
-            "type": "datetime",
-            "key": ">",
-            "keyColor": "white"
-        },
-        {
-            "type": "weather",
-            "key": ">",
-            "keyColor": "white",
-            "timeout": 1500
-        },
-        {
-            "type": "terminal",
-            "key": ">",
-            "keyColor": "green"
-        },
-        {
-            "type": "locale",
-            "key": ">",
+            "type": "board",
+            "key": "Motherboard",
+            "color": "white",
             "keyColor": "green"
         },
 
-        {
-            "type": "custom",
-            "format": "\u001b[90m└──────────────────────────────◊──────────────────────────────┘\u001b[0m"
-        }
+        "break",
+        {"type": "colors"}
     ]
 }

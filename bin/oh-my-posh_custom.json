@@ -1,5 +1,4 @@
 {
-   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
    "blocks": [
       {
          "alignment": "left",
@@ -37,13 +36,10 @@
          "segments": [
          {
             "foreground": "#ffffff",
-            "options": {
-               "style": "full"
-            },
-               "style": "plain",
-               "template": "<#51F775>\u2516[</>{{ .Path }}<#51F775>]></>",
-               "type": "path"
-            }
+            "style": "plain",
+            "template": "<#51F775>\u2516[</>{{ .Path }}<#51F775>]></>",
+            "type": "path"
+         }
          ],
          "type": "prompt"
       }

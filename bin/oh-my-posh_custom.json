@@ -26,6 +26,16 @@
                "style": "plain",
                "template": "<#4FBC73>[x</>{{ reason .Code }}<#4FBC73>]</>",
                "type": "status"
+            },
+            {
+               "foreground": "#ffffff",
+               "style": "plain",
+               "template": "<#4FBC73>[\uf252</>{{ .FormattedMs }}<#4FBC73>]</>",
+               "type": "executiontime",
+               "properties": {
+                  "threshold": 0,
+                  "style": "austin"
+               }
             }
          ],
          "type": "prompt"

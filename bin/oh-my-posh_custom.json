@@ -30,7 +30,7 @@
             {
                "foreground": "#ffffff",
                "style": "plain",
-               "template": "<#4FBC73>[\uf252</>{{ .FormattedMs }}<#4FBC73>]</>",
+               "template": "<#4FBC73>[\uf252 </>{{ .FormattedMs }}<#4FBC73>]</>",
                "type": "executiontime",
                "properties": {
                   "threshold": 0,
